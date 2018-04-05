@@ -1,0 +1,20 @@
+@charset "UTF-8";
+/* CSS Document */
+
+html {
+	text-align:center;
+	margin:0 auto;
+	display:block;
+	background:url(../img/Background.jpg);
+	background-size: cover;
+	background-repeat: repeat
+}
+body{
+	background-color: white;
+	height:950px;
+	width:80%;
+	text-align: center;
+	margin: 0 auto;
+}
+h1{padding-top:1em;}
+bold{color: #3A99DB;}

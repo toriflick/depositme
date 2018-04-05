@@ -1,0 +1,22 @@
+{
+  "name": "depositme",
+  "version": "1.0.0",
+  "description": "Interactive web installation.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mckmatter/depositme.git"
+  },
+  "author": "Tori Flick",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mckmatter/depositme/issues"
+  },
+  "homepage": "https://github.com/mckmatter/depositme#readme",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}
