@@ -1,7 +1,6 @@
 $(document).ready(function(){
 	
 	console.log("hello tori")
-	$(".test").append("hello dylan. I love dogs.")
 	
 	$(".enter").on("submit", function(event){
 		event.preventDefault();	
