@@ -18,3 +18,46 @@ body{
 }
 h1{padding-top:1em;}
 bold{color: #3A99DB;}
+
+.happy {
+	background-color:aqua;
+	padding:1em;
+	color:black;
+}
+
+.fear {
+	background-color:blueviolet;
+	padding:1em;
+	color:black;
+}
+
+.trait {
+	background-color:aqua;
+	padding:1em;
+	color:black;
+}
+
+.memory {
+	background-color:blueviolet;
+	padding:1em;
+	color:black;
+}
+
+.quality {
+	background-color:aqua;
+	padding:1em;
+	color:black;
+}
+
+.regret {
+	background-color:blueviolet;
+	padding:1em;
+	color:black;
+}
+
+
+
+
+
+
+

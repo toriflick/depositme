@@ -13,9 +13,11 @@ var wss = new WebSocket.Server({server})
 
 wss.on('connection', function(ws, req){
 	console.log('connected')
+	
 	app.post("/answer", function(req, res){
 		console.log(req.body.text)
-		ws.send(req.body.text)
+		console.log(req.body.question)
+		ws.send(JSON.stringify({ques: req.body.question, text:req.body.text}), )
 		res.sendStatus(200);
 	})
 

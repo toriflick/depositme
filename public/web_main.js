@@ -9,6 +9,8 @@ socket.onopen = function() {
 socket.onmessage = function(event) {
 	
 	console.log(event.data);
+	var object = JSON.parse(event.data);
+	console.log(object);
 	
-	$('.response').append("<p>"+event.data+"</p>")
+	$('.response').append("<p class="+object.ques+">"+object.text+"</p>")
 }
