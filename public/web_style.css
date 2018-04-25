@@ -11,48 +11,111 @@ html {
 }
 body{
 	background-color: white;
-	height:950px;
+	height:auto;
 	width:80%;
 	text-align: center;
 	margin: 0 auto;
+	padding:1em;
+
 }
-h1{padding-top:1em;}
+h1{
+padding-top:1em;
+margin-bottom:-1.5em;
+font-size:1.4em;
+
+}
 bold{color: #3A99DB;}
 
+.one {color:#395BB7;}
+
+.two {color:#EB0003;}
+
+.three {color:#E6EC15;}
+
+.four {color:#45A5E1}
+
+.five {color:#27D00D}
+
+.six {color:#0D600C;}
+
+
+
+
+
+.top {
+	margin-bottom:5em;
+}
+
 .happy {
-	background-color:aqua;
-	padding:1em;
+	background-color:#E6EC15;
+	padding:.5em;
+	width:45%;
 	color:black;
+	font-size:1em;
+	margin:0 auto;
+	display:block;
+	margin-bottom:1em;
+
 }
 
 .fear {
-	background-color:blueviolet;
-	padding:1em;
+	background-color:#395BB7;
+	padding:.5em;
 	color:black;
+	width:45%;
+	font-size:1em;
+	margin:0 auto;
+	display:block;
+	margin-bottom:1em;
 }
 
 .trait {
-	background-color:aqua;
-	padding:1em;
+	background-color:#45A5E1;
+	padding:.5em;
 	color:black;
+	width:45%;
+	font-size:1em;
+	margin:0 auto;
+	display:block;
+	margin-bottom:1em;
+
+	
 }
 
 .memory {
-	background-color:blueviolet;
-	padding:1em;
+	background-color:#0D600C;
+	padding:.5em;
 	color:black;
+	width:35%;
+	font-size:1em;
+	margin:0 auto;
+	display:block;
+	margin-bottom:1em;
+
+	
 }
 
 .quality {
-	background-color:aqua;
-	padding:1em;
+	background-color:#27D00D;
+	padding:.5em;
 	color:black;
+	width:35%;
+	font-size:1em;
+	margin:0 auto;
+	display:block;
+	margin-bottom:1em;
+
 }
 
 .regret {
-	background-color:blueviolet;
-	padding:1em;
+	background-color:#EB0003;
+	padding:.5em;
 	color:black;
+	width:35%;
+	font-size:1em;
+	margin:0 auto;
+	display:block;
+	margin-bottom:1em;
 }
 
 

@@ -1,5 +1,6 @@
 // JavaScript Document
 var socket = new WebSocket("ws://localhost:3000");
+//CHANGE URL to wss://teracast.io/depositme
 
 socket.onopen = function() {
 	

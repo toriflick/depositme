@@ -24,8 +24,9 @@ body {
 }
 h1 {
 	margin-top:3em;
+	font-weight: 400;
 }
-bold {color:#3A99DB;}
+bold {font-weight:bolder;}
 form {
 	margin-top:3em;
 }
